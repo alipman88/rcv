@@ -4,11 +4,11 @@ This application visualizes ranked choice voting results, allowing viewers to in
 
 https://democracy-for-america.github.io/rcv/
 
-Follow the instructions below to present your own data.
+Follow the instructions below to present your own polling results.
 
 ## Formatting your data
 
-This application requires two CSVs: one candidates CSV, and one poll results CSV.
+This application requires data in the form of two CSVs: one CSV of candidate data, and one CSV of poll results.
 
 #### Candidates CSV
 
@@ -48,7 +48,7 @@ X998,,
 
 Results CSVs may be formatted in one of two conventions:
 
-`yougov`: headers correspond to candidate IDs, and cell values contain integers indicating ordinal rankings, e.g.:
+`yougov`: headers correspond to candidate IDs, and cell values contain integers indicating ordinal rankings (i.e. first, second, and third choices):
 
 ```
 Q8_1,Q8_2,Q8_3
